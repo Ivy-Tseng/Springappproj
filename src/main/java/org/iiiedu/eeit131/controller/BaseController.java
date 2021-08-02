@@ -46,7 +46,13 @@ public class BaseController {
 	}
 	
 	@GetMapping
+
 	public String toShopPages() {
 		return "shops";
+  }
+  @GetMapping
+	public String toOrder() {
+		return "order";
+
 	}
 }
