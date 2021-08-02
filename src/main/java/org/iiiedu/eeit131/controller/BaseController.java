@@ -35,6 +35,10 @@ public class BaseController {
 		return "greeting";
 	}
 	
+	@GetMapping
+	public String toShopPage() {
+		return "shop";
+	}
 	
 	
 }
