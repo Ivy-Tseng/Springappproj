@@ -40,5 +40,8 @@ public class BaseController {
 		return "shop";
 	}
 	
-	
+	@GetMapping
+	public String toAdminPage() {
+		return "admin-index";
+	}
 }
